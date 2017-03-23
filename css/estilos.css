@@ -84,3 +84,20 @@ section .central {
    padding-bottom: 20px;
    box-shadow: 2px 2px #82c3a6;
 }
+
+#paisaje {
+  -webkit-transition: -webkit-transform 2s ease-out;
+ -moz-transition: -moz-transform 2s ease-out;
+ transition: transform 2s ease-out;
+}
+#paisaje:hover {
+  -webkit-transform: rotate(10deg);
+ -moz-transform: rotate(10deg);
+ transform: rotate(10deg);
+}
+#retratos:hover {
+  -webkit-transform: translate(5px, -20px);
+ -moz-transform: translate(5px, -20px);
+ transform: translate(5px, -20px);
+}
+/*Final estilos imagen secundaria*/
