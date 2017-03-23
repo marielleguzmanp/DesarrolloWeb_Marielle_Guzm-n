@@ -1,0 +1,58 @@
+/*Inicio estilos fondo y header*/
+body {
+  background-color: black;
+  margin: 5px;
+}
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #5b7989;
+  margin-bottom: 0px;
+  font-family: "Dancing Script";
+  border-radius: 10px 10px 0px 0px;
+}
+header nav a {
+  font-family: "Dancing Script";
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+header li {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+header nav .active a {
+  text-decoration: none !important;
+}
+ header div h1 {
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+/*Final estilos fondo y header*/
+
+/*Inicio estilos imagen central*/
+section .central {
+  background: #82c3a6;
+}
+/*Final estilos imagen central*/
+/*inicio sombras fotos*/
+#sombra {
+  float: left;
+  padding: 0 2px 2px 0;
+}
+#sombra img {
+  display: block;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  padding: 5px;
+  border: 2px solid;
+  border-color: #CCCCCC #02010a #02010a #CCCCCC;
+}
+/* final sombras fotos*/
