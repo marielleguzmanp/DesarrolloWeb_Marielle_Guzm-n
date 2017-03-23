@@ -56,3 +56,31 @@ section .central {
   border-color: #CCCCCC #02010a #02010a #CCCCCC;
 }
 /* final sombras fotos*/
+
+/*Inicio estilos imagen secundaria*/
+.galeria {
+  background: #d5c75f;
+   padding: .50vw;
+   font-size: 0;
+   -ms-flex-wrap: wrap;
+   -ms-flex-direction: column;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   display: -webkit-box;
+   display: flex;
+   display: -ms-flexbox; /*IE 10*/
+}
+.galeria div {
+   -webkit-box-flex: auto;
+   -ms-flex: auto;
+   flex: auto;
+   width: 200px;
+   margin: .5vw;
+}
+.galeria div img {
+   width: 100%;
+   height: auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   box-shadow: 2px 2px #82c3a6;
+}
