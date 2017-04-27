@@ -1,0 +1,36 @@
+.body_background {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/fondo.jpg);
+
+}
+#entradas {
+  text-align: justify;
+}
+
+.flow-text {
+  font-size: 16px;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+
+h1 {
+color: white;
+font-size: 50px;
+padding-top: 100px;
+}
+#foto2 {
+  margin-top: 5px;
+}
+#foto5 {
+  margin-top: 5px;
+}
+h6 {
+  font-size: 25px;
+}
+.card-image {
+  margin-top: 10px;
+}
