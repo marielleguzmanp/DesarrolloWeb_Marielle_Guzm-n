@@ -1,0 +1,51 @@
+#brand-image {
+  height: 150px;
+  margin-left: 30px;
+  padding-left: 10px auto;
+  margin-bottom: 30px;
+
+}
+.container{
+  height: 200px;
+}
+#navbarCollapse {
+  align-items: center;
+}
+.navbar {
+  margin-top: 50px;
+}
+#articulos {
+  text-align: justify;
+}
+
+/*Inicio alineamiento items navbar*/
+.navbar-nav {
+margin: 0 auto;
+display: table;
+table-layout: auto;
+float: none;
+width: 100%;
+}
+.navbar-nav>li {
+display: table-cell;
+float: none;
+text-align: center;
+}
+/*Final alineamiento items navbar*/
+#cepeda{
+  display: block;
+  margin: auto;
+}
+#santiago{
+  display: block;
+  margin: auto;
+}
+#social-accounts {
+  text-align: right;
+}
+#nombre-blog {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
