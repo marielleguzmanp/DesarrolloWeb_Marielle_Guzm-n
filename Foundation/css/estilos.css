@@ -1,0 +1,70 @@
+.body_background {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/fondo_salmon.jpg);
+}
+li {
+  list-style-type: none;
+}
+.content {
+  margin: 10%;
+  padding: 20px;
+  color: #fff;
+ background: rgba(245, 126, 46, 0.4);
+}
+.nombre_blog{
+  font-family: 'Love Ya Like A Sister', cursive;
+  margin-bottom: 0px;
+}
+
+#slogan {
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+hr#style: {
+  border-top: 3px double #8c8b8b;
+}
+
+p {
+  text-align: justify;
+}
+#col1 {
+  margin-right: 15px;
+  color: #F98829;
+}
+#buscador {
+  margin-top: 15px;
+}
+#titulo_entrada {
+  padding-top: 10px;
+}
+#menu_vertical {
+  text-align: center;
+}
+#favoritos {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  color: #F98829;
+}
+#historial {
+  color: #F98829;
+}
+#historial1 {
+  color: black;
+}
+#favoritos1 {
+  color: black;
+}
+.perfil1 {
+ width: 200px;
+ height: 200px;
+ border-radius: 100px;
+ -moz-border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -khtml-border-radius: 100px;
+ overflow: hidden;
+}
